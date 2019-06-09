@@ -1,0 +1,124 @@
+a { 
+	color: #D024E0;
+}
+a:hover {
+	color: #90239A;
+}
+body {
+	background-color: #393737;
+	font-family: Arial, Helvetica, sans-serif;
+	max-width: 960px;
+	padding: 85px;
+}
+button {
+	background-color: #262626;
+	color: #FFFFFF;
+	border: none;
+	padding: 15px 32px;
+}
+button:hover {
+	opacity: .75;
+}
+footer {
+	text-align: left;
+}
+h1, h2, h3, h4, h5, h6 { 
+	color: #DBDBDB;
+}
+img { 
+	width: 200px;
+	height: 125px;
+	padding: 0;
+}
+p { 
+	color: #ABABAB;
+}
+.card {
+	align-content: stretch;
+	display: flex;
+	flex-grow: 1;
+	flex-wrap: nowrap;
+}
+.cardImage {
+	flex-grow: 1;
+}
+.cardDetails {
+	align-content: flex-start;
+	flex-grow: 1;
+}
+.cardDetails h3 {
+	margin-block-start: 0;
+}
+.cards {
+	align-content: flex-start;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin: auto;
+}
+.mobileNav {
+	background-color: #151414;
+	color: white;
+}
+.nav {
+	min-width: 500px;
+	overflow: hidden;
+}
+.nav li {
+	display: inline;
+}
+.nav a {
+	color: #ABABAB;
+	padding: 8px;
+	text-decoration: none;
+}
+.nav a:hover {
+	color: #9A620E;
+}
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 5;
+}
+.pageHeader {
+	text-align: center;
+}
+.siteHeader {
+	align-content: flex-start;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	margin: auto;
+	width: 100%;
+}
+.selected a {
+	color: #D48611;
+}
+.spacer {
+	height: 100px;
+	padding: 10px;
+}
+.title {
+	box-sizing: border-box;
+	display: block;
+	float: left;
+}
+#jasnstu {
+	color: #D48611;
+	font-size: 3.5em;
+	line-height: 1;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+#poundNCash {
+	color: #ababab;
+	float: none;
+	font-size: 1em;
+	margin: 0;
+	padding-top: 1;
+	opacity: .35;
+}
